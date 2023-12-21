@@ -23,7 +23,10 @@ management not discussed during the lecture. Also the bootstrap was mentionned n
 therefore I wanted to check some data management commands instead.
 
 *** Expirement 3:
-
+I wanted to check how to filter the data and I used the following command to create a sample of observations
+with a value for spending equal to 402: 
+Sample_1=filter(web.browsers,spend=='402')
+When opening the data set of the subsample, I observed there are 5 observations with spendings equal to 402.
 
 *** Expirement 4:
 
