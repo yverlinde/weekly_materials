@@ -1,10 +1,16 @@
 *** Expirement 1:
 Changed the apply function (on slide 30) for learning about the class of variables.
-I changed the '2' in the code in a '1'.
+
+First, I changed the '2' in the code in a '1'.
 The code then becomes:
 apply(CEO_Diary,1,class)
 I learned that by changing the 2 in the code to a 1, you see the 'class' of 
 each cell output instead of the 'class' for a variable.
+
+After, I changed the '1' in the standard code into a '3' to investigate how this would alter the output.
+Then the code is as follows: apply(CEO_Diary,3,class)
+After running the code, I got an error R gives the following message: 'MARGIN' does not match dim(X)
+So from this, I concluded the apply function could be run by using 
 
 *** Expirement 2:
 Changed the code summary(CEO_Diary[1:5]) on slide 31 to summary(CEO_Diary[1:2]).
