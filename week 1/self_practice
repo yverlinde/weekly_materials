@@ -28,6 +28,12 @@ with a value for spending equal to 402:
 Sample_1=filter(web.browsers,spend=='402')
 When opening the data set of the subsample, I observed there are 5 observations with spendings equal to 402.
 
+After, I wanted to check what would happen when leaving out the Sample_1 part from the code by changing it to 
+filter(web.browsers,spend=='402').
+Then the output is displayed in the console instead of a seperate data sheet.
+
+
+
 *** Expirement 4:
 
 
