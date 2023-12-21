@@ -15,4 +15,4 @@ And would it be more stable with or without replacement if there would be a diff
 I ran the following command: data.frame(fgl$type[test],nearest1,nearest5,nearest8,nearest10, nearest25,nearest50)
 The output has been concluded as a seperate picture picture in the folder for week 4.
 
-It can be seen that for each of the selected values of K, the algorithm produces nearly identical results, so the robustness is quite high.
+It can be seen that for each of the selected values of K, the algorithm produces nearly identical results, so the outcome is quite stable.
