@@ -17,12 +17,12 @@ Changed the code summary(CEO_Diary[1:5]) on slide 31 to summary(CEO_Diary[1:2]).
 I learned that the numbers within the code refer the column variables, since when changing the '5' to '2' I only see
 the summary statisctics for the first 2 variables.
 
-*** Expirements 3, 4 and 5 motivation:
-I was feeling this was an introductory part of the course, so I investigated some basic commands for data 
-management not discussed during the lecture. Also the bootstrap was mentionned not to be exam material and 
-therefore I wanted to check some data management commands instead.
+*** Expirements 3 
+Motivation:
+I was feeling this was an introductory part of the course, so I investigated a basic commands for data 
+management not discussed during the lecture..
 
-*** Expirement 3:
+Expirement 3:
 I wanted to check how to filter the data and I used the following command to create a sample of observations
 with a value for spending equal to 402: 
 Sample_1=filter(web.browsers,spend=='402')
@@ -31,10 +31,3 @@ When opening the data set of the subsample, I observed there are 5 observations 
 After, I wanted to check what would happen when leaving out the Sample_1 part from the code by changing it to 
 filter(web.browsers,spend=='402').
 Then the output is displayed in the console instead of a seperate data sheet.
-
-
-
-*** Expirement 4:
-
-
-*** Expirement 5:
