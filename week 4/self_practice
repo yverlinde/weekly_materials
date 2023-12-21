@@ -1,1 +1,15 @@
 ***Expirement 1:
+I wanted to check what would happen when setting the number of K-nearest numbers above the number of of subsampled observations.
+Would it yield an error, or would the K Nearest Neighbours Algorithm use sampling with replacement?
+Since the subsample would be to small for the classification without replacement.
+Also, it might the interesting to see how the number off K would effect the outcome in the case of replacement.
+Would it be quite stable?
+
+So I ran the code test <- sample(1:214,10) and after, I ran the following 3 commands with K = 10, K = 25 and K = 50.
+nearest10 <- knn(train=x[-test,], test=x[test,], cl=fgl$type[-test], k=10)
+nearest25 <- knn(train=x[-test,], test=x[test,], cl=fgl$type[-test], k=25)
+nearest50 <- knn(train=x[-test,], test=x[test,], cl=fgl$type[-test], k=50)
+
+I also tested for lower values of K to check for the robustness: would the outcome be stable in general?
+And would it be more stable with or without replacement if there would be a difference?
+The output has been concluded as a seperate picture picture in the folder for week 4.
