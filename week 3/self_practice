@@ -1,1 +1,23 @@
+*** Expirement
+I was wondering wether the command colnames(dataset) could be adjusted to display the rownames instead of the
+column names. 
+This did I test by changing the colnames(email) command in slide 13 on the lecture slides on regression to  
+rownames(email) and I run the command in R and applied it to the corresponding dataset.
+Indeed it worked and I got the following output (... in row 44 indicating the pattern is the same for the here 
+not diplayed rows):
 
+  [1] "1"    "2"    "3"    "4"    "5"    "6"    "7"    "8"    "9"    "10"  
+  [11] "11"   "12"   "13"   "14"   "15"   "16"   "17"   "18"   "19"   "20"  
+  [21] "21"   "22"   "23"   "24"   "25"   "26"   "27"   "28"   "29"   "30"  
+ ... 
+ [971] "971"  "972"  "973"  "974"  "975"  "976"  "977"  "978"  "979"  "980" 
+ [981] "981"  "982"  "983"  "984"  "985"  "986"  "987"  "988"  "989"  "990" 
+ [991] "991"  "992"  "993"  "994"  "995"  "996"  "997"  "998"  "999"  "1000"
+ [ reached getOption("max.print") -- omitted 3602 entries ]
+What do I learn from this? 
+The total number of rows in the dataset is 4602  which is mentionned not in the output of the command,
+but in the bar just below the data frame.
+There are 3602 omitted entries, the incomplete observations I assume and 1000 is the maximum number 
+stated in the output and together (3602 + 1000) this exactly counts up to the total number of rows.
+So the numbers within brackets do not represent the right amount of row numbers, but the individual numbers
+between parentheses display the row numbers.
