@@ -1,1 +1,12 @@
+*** Expirement 1:
+Changed the code of the first line of the second part on slide 22 for the first BH Algoritm example.
+In the slides the first row of the code at the end of the slide is:
+pval <- summary(spendy)$coef[-1, "Pr(>|t|)"]
+I was interested in the use of the -1 in the code.
+To learn what is does, I changed the -1 into -2: pval <- summary(spendy)$coef[-2, "Pr(>|t|)"].
+When comparing the different outputs of p-values, I saw most of the output is identical, but the first specified 
+p-value in the list is different from the one resulting from my code.
+Also, the first presented p-value from the code including -1 is excluded in the list resulting from the code with -2 
+and vice versa.
+Therefore, I conclude the - followed by the number specifies which of the p-values to exclude from the list.
 
