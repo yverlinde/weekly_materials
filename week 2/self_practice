@@ -10,3 +10,27 @@ Also, the first presented p-value from the code including -1 is excluded in the 
 and vice versa.
 Therefore, I conclude the - followed by the number specifies which of the p-values to exclude from the list.
 
+*** Expirement 2:
+I wanted to learn what the numbers 2 and 1 do in the code on the third row on slide 22 of the first BH Algerithm example.
+Specifically, the code in the slide I am pointing at is  reject <- ifelse(pval< (0.1/9)*pvalrank, 2, 1).
+Here, I changed to 2 into 1 and 1 into a value of 0.
+I examined the output of both codes and i observed all the numbers 2 changed into 1 and all the values of 1 became a 0.
+So it became clear to me the difference is just a difference in labeling.
+But it was not clear to me yet which of the value lables correponds to a significant p-value and which lable is attached
+to insignificant p-values in the BH algorithm because the 'adjusted targets' are not presented. 
+Therefore, I calculated these by hand and compared them to the given p-values to determine the significant and 
+insignificant signals.
+After, I compared my results with the R output and concluded the second last number in the code is the lable for 
+significant signals (which are the numbers 2 in the code belonging to the slides and the ones in my adjusted code) 
+and the last number belongs to the insignificant p-values (the values 1 on the code as specified in the slides and 
+the 0 values for my version of the code).
+
+
+from the slide and it was a bit unclear to me if the value of 2 or 1 implies a significant resulat
+and therefore rejecting the nul hupothesis. Therefore, I also calculated the statistics by hand and compared 
+
+
+
+
+*** Expirement 3:
+
