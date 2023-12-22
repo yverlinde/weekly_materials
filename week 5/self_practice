@@ -1,1 +1,6 @@
+*** Expirement 1:
+I wondered what would happen when changing the lm code in slide 4 of the first part of the slides discussing the controls topic.
+I changed lm in glm to check which the following code:
+basefit_adjusted <- glm(log(sales) ~ log(price), data=oj)
+The results are included as a seperate file in the folder for this week and these results are the same as the ones from the model with lm.
 
