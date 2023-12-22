@@ -1,4 +1,4 @@
-*** Expirement 1:
+*** Expirement
 I wondered what would happen when changing the lm code in slide 4 of the first part of the slides discussing the controls topic.
 I changed lm in glm to check which the following code:
 basefit_adjusted <- glm(log(sales) ~ log(price), data=oj)
